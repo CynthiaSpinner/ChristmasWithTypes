@@ -29,6 +29,13 @@ namespace ChristmasWithTypes
             }
 
             Console.WriteLine($"\n We like to call Santa, {xmas.Santa}");
+
+                    
+            DateTime dat = DateTime.Now;
+
+            Console.WriteLine("\nToday is {0:d} at {0:T}.", dat);
+            Console.Write("\nPress any key to continue... ");
+            Console.ReadLine();
         }
     }
 }
