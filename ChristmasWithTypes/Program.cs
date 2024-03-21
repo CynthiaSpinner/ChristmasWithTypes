@@ -11,7 +11,7 @@ namespace ChristmasWithTypes
             var xmasDay = Christmas.Day.Thursday;
 
             //Changed Santa's name to Kris Kringle
-            xmas.Santa = "Kris Kringe";
+            xmas.Santa = "Kris Kringel";
 
             //Inserted 3 presents you would like for xmas.
             xmas.Presents =  new string[3]{"Car", "Books", "Cloths" }; 
